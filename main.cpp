@@ -1,16 +1,13 @@
 #include <iostream>
 
-void PrintGF() {
-    char chars[3][3] = {'1', '2', '3',
-                       '4', '5', '6',
-                       '7', '8', '9'};
-    std::cout << chars[0][0] << " | " << chars[0][1] << " | " << chars[0][2] << std::endl <<
-                "--+---+--" << std::endl <<
-                chars[1][0]  << " | " << chars[1][1] << " | " << chars[1][2] << std::endl <<
-                "--+---+--" << std::endl <<
-                chars[2][0]  << " | " << chars[2][1] << " | " << chars[2][2] << std::endl;
+void PrintGF(char** gf) {
+    std::cout << " " << gf[0][0] << " | " << gf[0][1] << " | " << gf[0][2] << std::endl <<
+                "---+---+---" << std::endl <<
+                " " << gf[1][0]  << " | " << gf[1][1] << " | " << gf[1][2] << std::endl <<
+                "---+---+---" << std::endl <<
+                " " << gf[2][0]  << " | " << gf[2][1] << " | " << gf[2][2] << std::endl;
 }
 int main() {
-    PrintGF();
+     PrintGF();
     return 0;
 }

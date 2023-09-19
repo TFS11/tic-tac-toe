@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/hashlag/CLionProjects/tic-tac-toe/cmake-build-debug",
-		"source" : "C:/Users/hashlag/CLionProjects/tic-tac-toe"
+		"build" : "C:/GitHub/tic-tac-toe/cmake-build-debug",
+		"source" : "C:/GitHub/tic-tac-toe"
 	},
 	"version" : 
 	{

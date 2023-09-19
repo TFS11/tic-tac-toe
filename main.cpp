@@ -7,7 +7,3 @@ void PrintGF(char** gf) {
                 "---+---+---" << std::endl <<
                 " " << gf[2][0]  << " | " << gf[2][1] << " | " << gf[2][2] << std::endl;
 }
-int main() {
-     PrintGF();
-    return 0;
-}
